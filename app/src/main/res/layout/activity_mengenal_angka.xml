@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mengenal_angka"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.internal.programming.handsomekids.MengenalAngka">
+
+    <ImageView
+        android:id="@+id/img_BackgroundMengenalAngka"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/img_TulisanOperasionalAngka"
+            android:layout_width="296dp"
+            android:layout_height="96dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/img_Penjumlahan"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginRight="8dp"/>
+
+            <ImageView
+                android:id="@+id/img_Pengurangan"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/img_Perkalian"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginRight="8dp"/>
+
+            <ImageView
+                android:id="@+id/img_Pembagian"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

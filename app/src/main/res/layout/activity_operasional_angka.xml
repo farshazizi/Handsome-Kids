@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_operasional_angka"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.internal.programming.handsomekids.OperasionalAngka">
+
+    <ImageView
+        android:id="@+id/img_Background4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/img_AngkaSatu"
+        android:layout_width="336dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/img_SemuaAngka"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/img_AngkaSatu"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

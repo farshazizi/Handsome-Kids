@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "828955138533",
+    "firebase_url": "https://handsome-kids.firebaseio.com",
+    "project_id": "handsome-kids",
+    "storage_bucket": "handsome-kids.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828955138533:android:98a0d256ccaed443",
+        "android_client_info": {
+          "package_name": "com.internal.programming.handsomekids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828955138533-r31bqvg2l8qo1uqr10grhblk74dak9vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIaLNkvKj5gjQndA8yjk2T5VKz5qjT4wE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.internal.programming.handsomekids.Menu">
+
+    <ImageView
+        android:id="@+id/img_Background3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/img_OperasionalAngka"
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/img_MengenalAngka"
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/img_Latihan"
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_TulisanMulai"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

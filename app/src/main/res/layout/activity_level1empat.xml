@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level1empat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.internal.programming.handsomekids.Level1empat">
+
+    <ImageView
+        android:id="@+id/img_BackgroundSoal1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/img_LatihanYuk"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/img_Soal"
+        android:layout_width="264dp"
+        android:layout_height="152dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_LatihanYuk"/>
+
+    <LinearLayout
+        android:layout_width="104dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp">
+
+        <ImageView
+            android:id="@+id/img_Darah1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/img_Darah2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/img_Darah3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_Soal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_A"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginRight="32dp"/>
+
+            <ImageView
+                android:id="@+id/img_B"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="32dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_C"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginRight="32dp"/>
+
+            <ImageView
+                android:id="@+id/img_D"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="32dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
